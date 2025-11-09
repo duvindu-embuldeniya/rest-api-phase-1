@@ -5,6 +5,8 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register('profile', UserProfileViewset)
+router.register('feed', ProfileFeedViewSet)
+
 
 
 urlpatterns = [
